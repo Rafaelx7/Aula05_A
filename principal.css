@@ -30,6 +30,7 @@ li a:hover {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
+    background-color: dimgray;
   }
   
   #myVideo {
@@ -48,18 +49,17 @@ li a:hover {
     width: 100%;
     padding: 20px;
   }
-  
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+
+  td, th{
+    border-style: inset;
   }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
   }
